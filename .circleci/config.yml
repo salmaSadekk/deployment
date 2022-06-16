@@ -60,12 +60,10 @@ jobs:
       - checkout
       - run:
           name: Deploy App/frontend
-          # TODO: Install, build, deploy in both apps
           command: |
             npm run frontend:deploy
       - run:
           name: Deploy App/api
-          # TODO: Install, build, deploy in both apps
           command: |
             npm run api:deploy
 
