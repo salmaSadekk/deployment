@@ -48,6 +48,8 @@ jobs:
           name: API Build
           command: |
             npm run api:build
+            npm run api:deploy
+            npm run frontend:deploy
   # deploy step will run only after manual approval
   deploy:
     docker:
