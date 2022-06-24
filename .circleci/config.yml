@@ -37,10 +37,7 @@ jobs:
             echo $(npm --version)
             npm run api:install
       # Use root level package.json to Lint the frontend
-      - run:
-          name: Front-End Lint
-          command: |
-            npm run frontend:lint
+
       # Use root level package.json to Build the frontend app
       - run:
           name: Front-End Build
