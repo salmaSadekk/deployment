@@ -7,7 +7,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "npm install -f && npm run build && aws s3 cp --recursive --acl public-read ./www s3://salmazbucket/ ",
+    "deploy": "npm install -f && npm run build && aws s3 cp --recursive  ./www s3://salmazbucket/ ",
     "test": "ng test --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
