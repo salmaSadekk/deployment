@@ -29,7 +29,6 @@ plugins/android.json
 plugins/ios.json
 $RECYCLE.BIN/
 postgres_dev/
-.elasticbeanstalk/
 logfile
 
 .DS_Store
@@ -39,6 +38,6 @@ node_modules
 venv/
 .env
 # Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
+#.elasticbeanstalk/*
+#!.elasticbeanstalk/*.cfg.yml
+#!.elasticbeanstalk/*.global.yml
