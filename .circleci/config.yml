@@ -48,5 +48,13 @@ jobs:
           name: API Build
           command: |
             npm run api:build
+      # Deploying the backend
+      - run:
+          name: API Deploy
+          command: |
             npm run api:deploy
+      # Deploying the Frontend
+      - run:
+          name: Frontend Deploy
+          command: |
             npm run frontend:deploy
